@@ -31,6 +31,7 @@ public class ActivitySelectionProblem {
 		});
 		int j=0;
 		System.out.println(list.get(j).start+" "+list.get(j).finish);
+		System.out.println("test");
 		for(int i=1;i<list.size();i++) {
 			if(list.get(j).finish <= list.get(i).start) {
 				System.out.println(list.get(i).start+" "+list.get(i).finish);
