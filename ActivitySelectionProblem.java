@@ -8,6 +8,7 @@ public class ActivitySelectionProblem {
 		finish=b;
 	}
 	public static void main(String[] args) {
+		System.out.println("test");
 		ActivitySelectionProblem[] asp=new ActivitySelectionProblem[6];
 		asp[0]=new ActivitySelectionProblem(1,2);
 		asp[1]=new ActivitySelectionProblem(3,4);
