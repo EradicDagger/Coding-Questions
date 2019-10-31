@@ -13,6 +13,7 @@ class Person(object):
         return False
   
   
+      
 # Inherited or Sub class (Note Person in bracket) 
 class Employee(Person): 
   
