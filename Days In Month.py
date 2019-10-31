@@ -5,6 +5,8 @@ def daysInMonth(year, month):
         if month == 2:
             if isLeapYear(year): return 29
             else:
+                
+                print("sarthak")
                 print("Yaha say")
                 return 28
         else: return 30
@@ -16,6 +18,8 @@ def isLeapYear(year):
            else:
                return 0
        else:
+        
+        
            return 1
     else:
         return 0
