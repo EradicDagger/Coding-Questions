@@ -1,6 +1,8 @@
 set1 = set() 
 set2 = set() 
   
+  
+  
 # Adding elements to set1 
 for i in range(1, 6): 
     set1.add(i) 
