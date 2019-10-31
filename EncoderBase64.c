@@ -6,6 +6,8 @@
 
 char Base64[]="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
+
+
 char *encoder(char* to_encode){
     char* result;
     int n=strlen(to_encode);
