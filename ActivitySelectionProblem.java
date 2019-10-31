@@ -28,6 +28,7 @@ public class ActivitySelectionProblem {
 				return arg0.finish-arg1.finish;
 			}
 			
+			
 		});
 		int j=0;
 		System.out.println(list.get(j).start+" "+list.get(j).finish);
