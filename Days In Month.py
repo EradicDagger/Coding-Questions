@@ -20,5 +20,7 @@ def isLeapYear(year):
     else:
         return 0
 
-x=daysInMonth(2000,4)
+yr = (int)(input ("Enter Year :"))
+mn = (int)(input ("Enter Month :"))
+x=daysInMonth(yr,mn)
 print(x)
