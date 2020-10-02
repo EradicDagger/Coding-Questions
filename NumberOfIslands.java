@@ -1,8 +1,10 @@
-// A program to find number of islands using graph traversals.
 @author Ashutosh_Sharma
++ @author Jim
 
+// Graph traversal technique to find number of islands [Lang: java]
 public class Islands{
-    static final int ROW = 5, COL = 5;
+    static final int ROW = 5;
+	static final int COL = 5;
 
     boolean isSafe(int M[][], int row, int col, boolean visited[][]){
         if((row >= 0 && col >= 0) && (row < ROW && col < COL) && (M[row][col] == 1) && (visited[row][col] == false))
