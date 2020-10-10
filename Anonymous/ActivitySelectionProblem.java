@@ -1,6 +1,8 @@
 package GreedyAlgorithms;
 
 import java.util.*;
+
+/*Activity Selection Problem*/
 public class ActivitySelectionProblem {
 	int start,finish;
 	public ActivitySelectionProblem(int a,int b){
