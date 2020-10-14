@@ -17,4 +17,5 @@ int main()
     else
         cout << c << " is a consonant.";
     return 0;
+    
 }
