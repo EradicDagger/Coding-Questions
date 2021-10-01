@@ -32,7 +32,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class Intersection {
-
+// Finding Intersection using hashmap
 	public static ArrayList Main(int arr[],int arr2[]) {
 		HashMap<Integer,Integer> hmap=new HashMap<>();
 		HashMap<Integer,Integer> hmap2=new HashMap<>();
