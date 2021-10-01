@@ -56,6 +56,7 @@ class Graph
 
 	public static void main(String args[]) 
 	{ 
+		System.out.println("DFS Graph");
 		Graph g = new Graph(4); 
 
 		g.addEdge(0, 1); 
