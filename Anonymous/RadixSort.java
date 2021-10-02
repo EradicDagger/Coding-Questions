@@ -65,6 +65,7 @@ public class RadixSort {
 	// Method to test above
     public static void main(String args[])
     {
+	System.out.println("Radix Sort Algorithm");
         RadixSort ob = new RadixSort();
         int nums[] = {7, -5, 3, 2, 1, 0, 45};
         System.out.println("Original Array:");
