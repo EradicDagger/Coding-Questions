@@ -60,6 +60,8 @@ class Graph
 	// Driver method to 
 	public static void main(String args[]) 
 	{ 
+			System.out.println("BFS Graph);
+
 		Graph graph = new Graph(4); 
 
 		graph.addEdge(0, 1); 
