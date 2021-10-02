@@ -68,6 +68,8 @@ class MergeSort
 	// Method to test above
     public static void main(String args[])
     {
+	System.out.println("Merge Sort Algorithm");
+
         MergeSort ob = new MergeSort();
         int nums[] = {7, -5, 3, 2, 1, 0, 45};
         System.out.println("Original Array:");
