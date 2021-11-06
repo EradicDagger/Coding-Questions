@@ -2,16 +2,13 @@
 import java.io.*; 
 import java.util.*; 
 
-// This class represents a directed graph using adjacency list 
-// representation 
+// This class represents a directed graph using adjacency list representation
 class Graph 
 { 
 	private int V; // No. of vertices 
 
-	// Array of lists for Adjacency List Representation 
 	private LinkedList<Integer> adj[]; 
 
-	// Constructor 
 	Graph(int v) 
 	{ 
 		V = v; 
@@ -46,11 +43,8 @@ class Graph
 	// The function to do DFS traversal. It uses recursive DFSUtil() 
 	void DFS(int v) 
 	{ 
-		// Mark all the vertices as not visited(set as 
-		// false by default in java) 
 		boolean visited[] = new boolean[V]; 
 
-		// Call the recursive helper function to print DFS traversal 
 		DFSUtil(v, visited); 
 	} 
 
@@ -72,4 +66,3 @@ class Graph
 		g.DFS(2); 
 	} 
 } 
-// This code is contributed by Aakash Hasija 
